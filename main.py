@@ -30,7 +30,6 @@ BoxLayout:
 
 
 class CameraApp(App):
-	fileprefix = 'snap'
 	
 	def build(self):
 		return Builder.load_string(kv)
