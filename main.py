@@ -40,7 +40,7 @@ class CameraApp(App):
 		img.save('foto01.png')
 	
 	def print_scr(self, *largs):
-		outname = self.foto02.png'
+		outname = 'foto02.png'
 		Window.screenshot(name=outname)
 	
 if __name__ == '__main__':
