@@ -37,10 +37,10 @@ class CameraApp(App):
 
 	def save_picture(self, picture):
 		img = Image(picture)
-		img.save('eu3.png')
+		img.save('foto01.png')
 	
 	def print_scr(self, *largs):
-		outname = self.fileprefix+'_%(counter)04d.png'
+		outname = self.foto02.png'
 		Window.screenshot(name=outname)
 	
 if __name__ == '__main__':
